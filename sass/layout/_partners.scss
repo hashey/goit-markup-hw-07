@@ -1,0 +1,28 @@
+.partners.list {
+  display: flex;
+  justify-content: center;
+}
+
+.partners .button-company {
+  width: 170px;
+  height: 90px;
+
+  background-color: transparent;
+  border: 1px solid $button-company-color;
+  fill: $button-company-color;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: all 250ms $timing-cube;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-text-color;
+    fill: $accent-text-color;
+  }
+}
+
+.partners > .item:not(:last-child) {
+  margin-right: 30px;
+}

@@ -1,0 +1,13 @@
+@mixin social-buttons($bg-color, $fill) {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  background-color: $bg-color;
+  border-color: transparent;
+
+  fill: $fill;
+
+  transition: all 250ms $timing-cube;
+}

@@ -1,0 +1,19 @@
+.logo-head {
+  @extend %logo;
+  color: $primary-text-color;
+
+  & .blue {
+    color: $accent-text-color;
+  }
+}
+
+.logo-foot {
+  @extend %logo;
+  color: $primary-white-color;
+  display: inline-block;
+  margin-bottom: 20px;
+
+  & .blue {
+    color: $accent-text-color;
+  }
+}

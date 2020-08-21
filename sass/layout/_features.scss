@@ -1,0 +1,45 @@
+.features {
+  padding-top: 94px;
+
+  & .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  & .details {
+    color: $secondary-text-color;
+
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.71;
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.features-box {
+  display: flex;
+  justify-content: center;
+
+  & .icon-antenna,
+  & .icon-clock,
+  & .icon-diagram,
+  & .icon-astronaut {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    height: 120px;
+
+    background-color: $secondary-bg-color;
+    border-radius: 4px;
+  }
+
+  & > .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

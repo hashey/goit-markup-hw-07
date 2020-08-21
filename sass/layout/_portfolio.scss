@@ -1,0 +1,43 @@
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio .title {
+  color: $primary-text-color;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+
+.portfolio .category-tag {
+  color: $secondary-text-color;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.category.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 50px;
+
+  & > .item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
